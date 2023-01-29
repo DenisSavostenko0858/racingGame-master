@@ -12,9 +12,23 @@
 <body>
     <div class="content">
         <h1>Race</h1>
+        <label class="warningalert">
+            <input type="checkbox" class="alertCheckbox" autocomplete="off" />
+            <div class="alert info">
+              <span class="alertClose">X</span>
+              <span class="alertText"><p>!!!Внимание, игра работает только на АНГЛИЙСКОЙ РАСКЛАДКЕ!!!<br/>
+                - При столкновении с припятствием, игра заканчиваеться :(<br/>
+                - Для повторной попытки, нажимаем кнопку "Повторить"<br/>
+                - В низу левой части экрана отображаеться "счет"<br/>
+                "Счет - Cуммарное количество, припятствий которое вам<br/>
+                удалось избежать"
+              </p>
+              <br class="clear"/></span>
+            </div>
+          </label>
         <canvas id="canvas" width="800" height="800"></canvas>
         <button  class="but" onclick="location.reload();"><img src="img/png-clipart-computer-icons-others-blue-text.png" width="60px" height="40px"></button>
-        <h2>!!!Внимание, игра работает только на АНГЛИЙСКОЙ РАСКЛАДКЕ!!!</h2>
+        <p>Повторить</p>
     </div>
 </body>
 </html>

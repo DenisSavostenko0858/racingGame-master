@@ -77,3 +77,11 @@ function drawAll() {
 setTimeout(drawAll, 300);
 
 document.addEventListener('keypress', moveCar)
+
+// var x = document.getElementById("myInput");
+// x.addEventListener("keyup", function(event) {
+//   if (event.keyCode === 13) {
+//    event.preventDefault();
+//    document.getElementById("but").click();
+//   }
+// });
